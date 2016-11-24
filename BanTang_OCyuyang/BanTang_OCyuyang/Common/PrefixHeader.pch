@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  BanTang_OCyuyang
+//
+//  Created by qianfeng on 16/11/22.
+//  Copyright © 2016年 qianfeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+//1.OC和UI库
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+//2.cocoapods管理的库
+#import <AFNetworking/AFNetworking.h>
+#import <JSONModel/JSONModel.h>
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+
+#import "HomeBannerModel.h"
+#import "HomeModel.h"
+#import "BanTangDownloader.h"
+
+#endif
+
+
+#endif /* PrefixHeader_pch */
