@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		235AF54FC9DDCC8C2DDD6F3F /* Pods_BanTang_OCyuyang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682FD414B85D5F542562CE43 /* Pods_BanTang_OCyuyang.framework */; };
+		BC4ED0A21DE71E34005FF5E7 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4ED0A01DE71E34005FF5E7 /* HomeCell.m */; };
+		BC4ED0A31DE71E34005FF5E7 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4ED0A11DE71E34005FF5E7 /* HomeCell.xib */; };
 		BC643E391DE40F5D00319047 /* tabbar-light.png in Resources */ = {isa = PBXBuildFile; fileRef = BC643E191DE40F5D00319047 /* tabbar-light.png */; };
 		BC643E3A1DE40F5D00319047 /* tabbar-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC643E1A1DE40F5D00319047 /* tabbar-light@2x.png */; };
 		BC643E3B1DE40F5D00319047 /* tabBar_essence_click_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC643E1B1DE40F5D00319047 /* tabBar_essence_click_icon.png */; };
@@ -63,6 +65,7 @@
 		BC8E338A1DE32CCF000C5647 /* Show_normal@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC8E33851DE32CCF000C5647 /* Show_normal@2x.jpg */; };
 		BC8E338B1DE32CCF000C5647 /* UMS_find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8E33861DE32CCF000C5647 /* UMS_find@2x.png */; };
 		BCD75D831DE5B82B009D4388 /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD75D821DE5B82B009D4388 /* BannerView.m */; };
+		BCD96C131DE6E0D300FF298C /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD96C121DE6E0D300FF298C /* TitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,9 @@
 
 /* Begin PBXFileReference section */
 		682FD414B85D5F542562CE43 /* Pods_BanTang_OCyuyang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BanTang_OCyuyang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4ED09F1DE71E34005FF5E7 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		BC4ED0A01DE71E34005FF5E7 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		BC4ED0A11DE71E34005FF5E7 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		BC643E191DE40F5D00319047 /* tabbar-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-light.png"; sourceTree = "<group>"; };
 		BC643E1A1DE40F5D00319047 /* tabbar-light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-light@2x.png"; sourceTree = "<group>"; };
 		BC643E1B1DE40F5D00319047 /* tabBar_essence_click_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar_essence_click_icon.png; sourceTree = "<group>"; };
@@ -158,6 +164,8 @@
 		BC8E33861DE32CCF000C5647 /* UMS_find@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UMS_find@2x.png"; sourceTree = "<group>"; };
 		BCD75D811DE5B82B009D4388 /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
 		BCD75D821DE5B82B009D4388 /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
+		BCD96C111DE6E0D300FF298C /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		BCD96C121DE6E0D300FF298C /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
 		C6C7B6A95F1E26FC160FC793 /* Pods-BanTang_OCyuyang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanTang_OCyuyang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BanTang_OCyuyang/Pods-BanTang_OCyuyang.debug.xcconfig"; sourceTree = "<group>"; };
 		F3E373D35B5E1C8E85B00FCC /* Pods-BanTang_OCyuyang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanTang_OCyuyang.release.xcconfig"; path = "Pods/Target Support Files/Pods-BanTang_OCyuyang/Pods-BanTang_OCyuyang.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -447,6 +455,11 @@
 			children = (
 				BCD75D811DE5B82B009D4388 /* BannerView.h */,
 				BCD75D821DE5B82B009D4388 /* BannerView.m */,
+				BCD96C111DE6E0D300FF298C /* TitleView.h */,
+				BCD96C121DE6E0D300FF298C /* TitleView.m */,
+				BC4ED09F1DE71E34005FF5E7 /* HomeCell.h */,
+				BC4ED0A01DE71E34005FF5E7 /* HomeCell.m */,
+				BC4ED0A11DE71E34005FF5E7 /* HomeCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -640,6 +653,7 @@
 				BC643E411DE40F5D00319047 /* tabBar_friendTrends_click_icon.png in Resources */,
 				BC643E441DE40F5D00319047 /* tabBar_friendTrends_icon.png in Resources */,
 				BC643E3A1DE40F5D00319047 /* tabbar-light@2x.png in Resources */,
+				BC4ED0A31DE71E34005FF5E7 /* HomeCell.xib in Resources */,
 				BC643E531DE40F5D00319047 /* tabBar_publish_click_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -724,6 +738,8 @@
 				BC8E337C1DE3288F000C5647 /* MessageViewController.m in Sources */,
 				BC643E6D1DE4837100319047 /* HomeModel.m in Sources */,
 				BC8E33571DE32359000C5647 /* MainTabBarController.m in Sources */,
+				BCD96C131DE6E0D300FF298C /* TitleView.m in Sources */,
+				BC4ED0A21DE71E34005FF5E7 /* HomeCell.m in Sources */,
 				BC643E661DE4690300319047 /* BanTangDownloader.m in Sources */,
 				BC8E33241DE322ED000C5647 /* main.m in Sources */,
 			);

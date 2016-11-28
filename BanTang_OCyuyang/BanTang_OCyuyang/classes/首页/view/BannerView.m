@@ -30,7 +30,7 @@
     UIImageView *lastImageView=[[UIImageView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, viewHeight)];
     
     [lastImageView sd_setImageWithURL:[NSURL URLWithString:lastbannerModel.photo]];
-    NSLog(@"%@",lastbannerModel.photo);
+    
     [self.scroView addSubview:lastImageView];
     
     UIImageView *firstImageView=[[UIImageView alloc] initWithFrame:CGRectMake((self.datamodel.banner.count+1)*([UIScreen mainScreen].bounds.size.width), 0, [UIScreen mainScreen].bounds.size.width, viewHeight)];
